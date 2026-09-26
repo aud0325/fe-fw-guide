@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aud0325.github.io/fe-fw-guide/sitemap.xml
