@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "revision": "local",
-  "createdAt": "2026-09-26T14:52:09.494Z",
+  "createdAt": "2026-09-26T15:02:12.714Z",
   "files": [
     {
       "path": "404.html",
@@ -9,9 +9,14 @@
       "sha256": "af6837b6efba38f137a14b4086b2efc4cae8d07771293f29a3f4bfc4dab22e26"
     },
     {
+      "path": "analytics.mjs",
+      "bytes": 1438,
+      "sha256": "cc08fe71e3b11554ddaf898566872bf1ba945084a55b4046789e3c4d8ee921f3"
+    },
+    {
       "path": "app.mjs",
-      "bytes": 14045,
-      "sha256": "19ce922ab74ecf2a6efe644198802213ba76fc386b5337c1815ee4ba70cfc379"
+      "bytes": 14104,
+      "sha256": "0391ab30bf8308f8b3005c7ccb74103b8afe29f2ebcdbef4d2756bdb592156e1"
     },
     {
       "path": "assets/cai.webp",
@@ -1830,8 +1835,8 @@
     },
     {
       "path": "en/directory/index.html",
-      "bytes": 51957,
-      "sha256": "d7a0153e1c83646b30bd79f3380cea157da7fac96719f305c2502c542352ec39"
+      "bytes": 52081,
+      "sha256": "0ed1cc21bc52bea92bbd08a931a3c8714b83246e17db6743ab8c9a2f0517cc7a"
     },
     {
       "path": "en/entry/adids-cave/index.html",
@@ -5510,8 +5515,8 @@
     },
     {
       "path": "ko/directory/index.html",
-      "bytes": 58484,
-      "sha256": "c5229d9f5dbbc21f0c234fb1df569cd204c12703096ee0e61c2cf9565f51064d"
+      "bytes": 58608,
+      "sha256": "b526467f9fa00a7bc901b61c4977c4895fc9008e02246db2aa8b52f5bc5caf75"
     },
     {
       "path": "ko/entry/adids-cave/index.html",

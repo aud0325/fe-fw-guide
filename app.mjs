@@ -1,3 +1,4 @@
+import {trackPage} from './analytics.mjs';
 import {renderPage} from './page-renderer.mjs';
 import {defaultState,pagePath,stateQuery,readRoute,rewriteLinks} from './routing.mjs';
 import {createTranslator} from './locales/index.mjs';
@@ -68,6 +69,7 @@ function render(){
  const page=renderPage(state,lang,visibleLimit,basePath);
  $('content').innerHTML=page.html;
  updateMetadata(page);
+ trackPage();
  document.querySelectorAll('a[href^="#"]').forEach(a=>{if(a.classList.contains('skip')){a.href=location.pathname+location.search+'#main';return;}const next=rewriteLinks(a.outerHTML,lang,basePath);if(next!==a.outerHTML){const holder=document.createElement('template');holder.innerHTML=next;a.href=holder.content.firstElementChild.getAttribute('href');}});
  document.querySelector('.brand').href=pagePath(defaultState(),lang,basePath);
  document.querySelector('.skip').href=location.pathname+location.search+'#main';
